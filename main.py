@@ -8,7 +8,7 @@ class Game:
 		pygame.init()
 		
 		self.screen = pygame.display.set_mode((600, 600))
-		
+		pygame.display.set_caption("Zombie Chase! (Alpha Release 1)")
 		self.player = Player(self)
 		self.zombies = pygame.sprite.Group()
 		pygame.mouse.set_visible(False)
